@@ -18,10 +18,10 @@ function mapStateToProps(state) {
 class App extends Component {
   render() {
     return (
-      <div >
-        App {this.props.counter}
-        
-        App {this.props.hellow}
+      <div>
+        <h1>App {this.props.counter} </h1>
+        <br />
+       <h3> App {this.props.hellow} </h3>
       </div>
     );
   }
