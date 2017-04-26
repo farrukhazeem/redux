@@ -11,6 +11,7 @@ function mapStateToProps(state) {
         // reducer function will be in state, for now we are sending simple numaric
         // value therefore it will be simple integer
         counter: state,
+        hellow: "World",
     };
 }
 
@@ -19,6 +20,8 @@ class App extends Component {
     return (
       <div >
         App {this.props.counter}
+        
+        App {this.props.hellow}
       </div>
     );
   }
