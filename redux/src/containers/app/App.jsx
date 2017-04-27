@@ -12,6 +12,7 @@ function mapStateToProps(state) {
         // value therefore it will be simple integer
         counter: state,
         hellow: "World",
+        men: "Farrukh Azeem",
     };
 }
 
@@ -21,7 +22,10 @@ class App extends Component {
       <div>
         <h1>App {this.props.counter} </h1>
         <br />
-       <h3> App {this.props.hellow} </h3>
+       <h3> Hellow {this.props.hellow} </h3>
+       <br />
+       <h5>My name is {this.props.men} </h5>
+
       </div>
     );
   }
